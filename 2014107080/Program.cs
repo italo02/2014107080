@@ -11,54 +11,54 @@ namespace _2014107080
         public static void Main(string[] args)
         {
 
-            var administrativo = "Juan";
-            var apellidosadministrativo = "Smith";
-            var DNIadministrativo = "1234567";
+            var administrativo = "Joel";
+            var apellidosadministrativo = "Tangoa";
+            var DNIadministrativo = "123789";
             var sueldoadministrativo = 2500m;
             var cargo = "Recepcionista";
             var edadadministrativo = 35;
 
-            var tripulante1 = "Pedro";
+            var tripulante1 = "Judas";
             var DNItripulante1 = "1234568";
             var edadtripulante1 = 36;
             var apellidotripulante1 = "Perez";
             var sueldotripulante1 = 1500m;
 
-            var tripulante2 = "Elisa";
+            var tripulante2 = "Pablo";
             var DNItripulante2 = "1234569";
             var edadtripulante2 = 37;
             var apellidotripulante2 = "Martinez";
             var sueldotripulante2 = 1500m;
 
-            var tripulante3 = "Eduardo";
+            var tripulante3 = "Mateo";
             var DNItripulante3 = "1234570";
             var edadtripulante3 = 38;
             var apellidotripulante3 = "Ramirez";
             var sueldotripulante3 = 1500m;
 
 
-            var cliente1 = "Carlos";
-            var apellidoscliente1 = "Garcia";
+            var cliente1 = "Jesus";
+            var apellidoscliente1 = "Martinez";
             var DNIcliente1 = "1234571";
 
-            var cliente2 = "Maria";
-            var apellidoscliente2 = "Zarate";
+            var cliente2 = "Juan";
+            var apellidoscliente2 = "Lozano";
             var DNIcliente2 = "1234573";
 
-            var cliente3 = "Kemy";
-            var apellidoscliente3 = "Tangoa";
+            var cliente3 = "Gabriel";
+            var apellidoscliente3 = "Perez";
             var DNIcliente3 = "1234574";
 
-            var cliente4 = "Cesar";
-            var apellidoscliente4 = "Marin";
+            var cliente4 = "Maria";
+            var apellidoscliente4 = "Santos";
             var DNIcliente4 = "1234575";
 
-            var cliente5 = "Kael";
-            var apellidoscliente5 = "Sanchez";
+            var cliente5 = "Ana";
+            var apellidoscliente5 = "Chinga";
             var DNIcliente5 = "1234576";
 
             var lugar1 = "Lima";
-            var lugar2 = "Ica";
+            var lugar2 = "Arequipa";
 
             var seriemotor1 = "AH-4HK1XYBW-01";
             var placa1 = "AEF-717";
@@ -78,11 +78,11 @@ namespace _2014107080
             var numerocomprobante4 = 4;
             var numerocomprobante5 = 5;
 
-            Decimal tarifa1 = 20m;
-            Decimal tarifa2 = 35m;
-            Decimal tarifa3 = 50m;
-            Decimal tarifa4 = 18m;
-            Decimal tarifa5 = 16m;
+            Decimal tarifa1 = 50m;
+            Decimal tarifa2 = 80m;
+            Decimal tarifa3 = 30m;
+            Decimal tarifa4 = 70m;
+            Decimal tarifa5 = 45m;
 
             Cliente Cliente1 = new Cliente();
 
@@ -98,7 +98,7 @@ namespace _2014107080
             LugarOrigen1.NombreLugar = lugar1;
             LugarDestino1.NombreLugar = lugar2;
 
-            Bus Bus1 = new Bus(1);
+            Bus Bus1 = new Bus();
 
             Bus1.Placa = placa1;
             Bus1.SerieMotor = seriemotor1;
@@ -155,7 +155,7 @@ namespace _2014107080
             LugarOrigen2.NombreLugar = lugar1;
             LugarDestino2.NombreLugar = lugar2;
 
-            Bus Bus2 = new Bus(1);
+            Bus Bus2 = new Bus();
 
             Bus2.Placa = placa1;
             Bus2.SerieMotor = seriemotor1;
@@ -211,7 +211,7 @@ namespace _2014107080
             LugarOrigen3.NombreLugar = lugar1;
             LugarDestino3.NombreLugar = lugar2;
 
-            Bus Bus3 = new Bus(1);
+            Bus Bus3 = new Bus();
 
             Bus3.Placa = placa1;
             Bus3.SerieMotor = seriemotor1;
@@ -266,7 +266,7 @@ namespace _2014107080
             LugarOrigen4.NombreLugar = lugar1;
             LugarDestino4.NombreLugar = lugar2;
 
-            Bus Bus4 = new Bus(1);
+            Bus Bus4 = new Bus();
 
             Bus4.Placa = placa1;
             Bus4.SerieMotor = seriemotor1;
@@ -321,7 +321,7 @@ namespace _2014107080
             LugarOrigen5.NombreLugar = lugar1;
             LugarDestino5.NombreLugar = lugar2;
 
-            Bus Bus5 = new Bus(1);
+            Bus Bus5 = new Bus();
 
             Bus5.Placa = placa1;
             Bus5.SerieMotor = seriemotor1;

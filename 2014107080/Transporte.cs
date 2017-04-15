@@ -17,7 +17,7 @@ namespace _2014107080
         {
             TipoViaje = new TipoViaje(tipoviaje);
             Cliente = new Cliente();
-            Bus = new Bus(pasajeros);
+            Bus = new Bus();
             this.NombreServicio = "Servicio de Transporte";
         }
     }
